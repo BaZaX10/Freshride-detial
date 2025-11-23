@@ -1,1 +1,3 @@
-[freshride_site_with_readme.zip](https://github.com/user-attachments/files/23695480/freshride_site_with_readme.zip)
+
+[index.html](https://github.com/user-attachments/files/23695510/index.html)
+[README.md](https://github.com/user-attachments/files/23695511/README.md)
