@@ -1,5 +1,4 @@
-
-[README.md](https://github.com/user-attachments/files/23695575/README.md)
+[README.md](https://github.com/user-attachments/files/23695697/README.md)
 # FreshRide Detail – Mustang Theme Website
 
 This folder contains the full website for FreshRide Detail, including:
