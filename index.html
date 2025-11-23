@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>FreshRide Detail – Premium Mobile Detailing Cairns</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #000000;
+        color: #ffffff;
+    }
+    header {
+        background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1350&q=80')
+                    no-repeat center center/cover;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 48px;
+        color: #FFD400;
+        text-shadow: 0px 0px 10px #000;
+    }
+    header p {
+        font-size: 20px;
+        margin-top: 10px;
+        text-shadow: 0px 0px 10px #000;
+    }
+    .button {
+        margin-top: 25px;
+        background: #FFD400;
+        color: #000;
+        padding: 15px 25px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.3s;
+    }
+    .button:hover {
+        background: #e6bf00;
+    }
+    nav {
+        background: #0a0a0a;
+        padding: 15px 25px;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    nav a {
+        color: #ffffff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #FFD400;
+    }
+    .section {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+    h2 {
+        color: #FFD400;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+    .service-card {
+        background: #1a1a1a;
+        padding: 20px;
+        margin: 20px 0;
+        border-left: 5px solid #FFD400;
+        border-radius: 5px;
+    }
+    .quote-form input, .quote-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 6px;
+        border: none;
+        background: #2a2a2a;
+        color: #fff;
+    }
+    .quote-form button {
+        width: 100%;
+        padding: 15px;
+        background: #FFD400;
+        color: #000;
+        font-weight: bold;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .quote-form button:hover {
+        background: #e6bf00;
+    }
+    footer {
+        background: #0a0a0a;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+        color: #FFD400;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<nav>
+<div><strong>FreshRide Detail</strong></div>
+<div>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#quote">Request Quote</a>
+</div>
+</nav>
+<header>
+<h1>FRESHRIDE DETAIL</h1>
+<p>Premium Mobile Car Detailing – Cairns</p>
+<a class="button" href="#quote">REQUEST A FREE QUOTE</a>
+</header>
+<section class="section" id="services">
+<h2>OUR SERVICES</h2>
+<div class="service-card">
+<h3>Basic Detail – from $99</h3>
+<p>Exterior wash &amp; dry<br/>Tyre shine<br/>Vacuum<br/>Windows in/out</p>
+</div>
+<div class="service-card">
+<h3>Interior Deep Clean – from $150</h3>
+<p>Seats &amp; carpets scrubbed<br/>Stain removal<br/>Plastics &amp; dash cleaned<br/>Dust, dirt &amp; sand removed</p>
+</div>
+<div class="service-card">
+<h3>Full Detail – from $220</h3>
+<p>Interior + exterior refresh<br/>Upholstery clean<br/>Plastic restoration<br/>Tyre shine</p>
+</div><div class="service-card"><h3>General Oil Change – from $120 + parts</h3><p>Oil filter replacement
+Full oil drain &amp; refill
+Safety check</p></div>
+<div class="service-card"><h3>Brake Pads &amp; Rotors – from $180 + parts</h3><p>Front or rear brake pad replacement
+Rotor replacement (optional)
+Full safety inspection</p></div><div class="service-card">
+<h3>Add-Ons</h3>
+<p>Headlight restoration – $40<br/>Pet hair removal – $30<br/>Odour removal – $40<br/>Engine bay – $20</p>
+</div>
+</section>
+<section class="section" id="quote">
+<h2>REQUEST A QUOTE</h2>
+<form action="mailto:bkark4@gmail.com" class="quote-form" enctype="text/plain" method="POST">
+<input name="name" placeholder="Your Name" required="" type="text"/>
+<input name="phone" placeholder="Phone Number" required="" type="telephone"/>
+<input name="email" placeholder="Email (optional)" type="email"/>
+<input name="suburb" placeholder="Your Suburb" required="" type="text"/>
+<textarea name="details" placeholder="Describe your car + what service you need" required="" rows="6"></textarea>
+<button type="submit">Send Quote Request</button>
+</form>
+</section>
+<footer>
+    FreshRide Detail © 2025 – Mobile Detailing Cairns
+</footer>
+</body>
+</html>
